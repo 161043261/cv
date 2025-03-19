@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Iosevka Web';
+  font-display: swap;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  src: url('@/assets/Iosevka-Regular.woff2') format('woff2');
+}
+
+:root {
+  font-family: 'Iosevka Web', 'PingFang SC', 'Microsoft YaHei' !important;
+}
